@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=WindSong:wght@500&display=swap');
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ---------------top navbar--------------- */
+.topNav {
+    display: flex;
+    place-content: center;
+    margin: 1.4em 0;
+}
+
+.navMenuContainer {
+    display: flex;
+    place-content: center;
+}
+
+.navMenu,
+.logo>img {
+    cursor: pointer;
+}
+
+.navMenu {
+    margin: 1em 1em;
+    font-weight: 700;
+}
+
+.navMenu:hover {
+    border-bottom: orangered solid 2px;
+    font-weight: 300;
+}
+
+/* ---------------main heading--------------- */
+.mainHeading {
+    text-align: center;
+    margin-top: 1em;
+    font-family: 'WindSong', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* ---------------main background image--------------- */
+.bgImage {
+    width: 100vw;
+    height: 75vh;
+    background-image: url(resources/images/img12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* ---------------event cards--------------- */
+.eventCards {
+    display: flex;
+    margin: 2em auto;
+    justify-content: center;
+}
+
+.eventCard {
+    border-radius: 15px;
+    background-color: peru;
+    margin-right: 1em;
+    height: 400px;
+    width: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.wedding {
+    background-image: url(resources/images/img17.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.picnic {
+    background-image: url(resources/images/img16.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.packages {
+    background-image: url(resources/images/img11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* change this selector once you add an image and icon to the eventCard */
+.eventCard p {
+    padding: 1em;
+    font-weight: bold;
+    background-color: pink;
+    margin: 0 1.5em;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.eventCard p img {
+    height: 21px;
+    width: 21px;
+}
+
+/* ---------------reviews/ testimonials--------------- */
+.reviews {
+    display: flex;
+    margin: 1.5em;
+    justify-content: center;
+}
+
+.reviewCard {
+    border-radius: 10px;
+    height: 194px;
+    width: 358px;
+    padding: 1em;
+    margin-right: 1em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+
+}
+
+.reviewerLetter {
+    border-radius: 50%;
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+    margin-right: 1em;
+    padding: 1em;
+}
+
+.reviewerName {
+    margin-bottom: 0;
+    font-family: 'MuseoModerno', sans-serif;
+}
+
+.reviewerDate {
+    margin-top: 2px;
+}
+
+/* ---------------contact us--------------- */
+.contactUs {
+    margin-top: 1.5em;
+    background-color: #DEA5C5;
+    height: 45vh;
+    padding-top: 3em;
+}
+
+.contactCard {
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2em;
+    height: fit-content;
+    width: 58vw;
+    background-color: white;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.message h2,
+h1 {
+    font-family: 'MuseoModerno', sans-serif;
+}
