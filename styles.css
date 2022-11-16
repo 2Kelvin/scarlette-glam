@@ -19,6 +19,7 @@ body {
 .navMenuContainer {
     display: flex;
     place-content: center;
+    height: 50px;
 }
 
 .navMenu,
@@ -29,11 +30,19 @@ body {
 .navMenu {
     margin: 1em 1em;
     font-weight: 700;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    min-height: 24px;
+}
+
+.navMenu:active {
+    border-bottom: #dd4b85 solid 3px;
+    font-weight: 300;
 }
 
 .navMenu:hover {
-    border-bottom: orangered solid 2px;
-    font-weight: 300;
+    color: orangered;
 }
 
 /* ---------------main heading--------------- */
@@ -119,6 +128,7 @@ body {
 
 .reviewCard {
     border-radius: 10px;
+    background-color: #fff;
     height: 194px;
     width: 358px;
     padding: 1em;
@@ -129,7 +139,6 @@ body {
 .reviewer {
     display: flex;
     align-items: center;
-
 }
 
 .reviewerLetter {
@@ -139,23 +148,38 @@ body {
     font-weight: bold;
     margin-right: 1em;
     padding: 1em;
+    height: 20px;
+    width: 20px;
+    align-self: center;
+    text-align: center;
+    display: grid;
+    place-content: center;
 }
 
 .reviewerName {
     margin-bottom: 0;
     font-family: 'MuseoModerno', sans-serif;
+    width: 16em;
 }
 
 .reviewerDate {
     margin-top: 2px;
 }
 
+.reviewer img {
+    height: 22px;
+    width: 22px;
+    justify-self: flex-end;
+}
+
 /* ---------------contact us--------------- */
 .contactUs {
     margin-top: 1.5em;
     background-color: #DEA5C5;
-    height: 45vh;
+    height: 50vh;
     padding-top: 3em;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 .contactCard {
@@ -163,7 +187,8 @@ body {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 2em;
     height: fit-content;
-    width: 58vw;
+    min-height: 380px;
+    width: 59vw;
     background-color: white;
     margin: auto;
     display: grid;
@@ -173,12 +198,25 @@ body {
 .message h2,
 h1 {
     font-family: 'MuseoModerno', sans-serif;
+    /* import this font */
+}
+
+.message h2 {
+    font-size: 160%;
+}
+
+.message h1 {
+    font-size: 178%;
 }
 
 .ourSocials img {
     height: 42px;
     width: 42px;
-    margin-right: 1em;
+    margin-right: 1.5em;
+}
+
+.ourSocials {
+    margin-top: 3em;
 }
 
 .messageEdits {
@@ -188,4 +226,38 @@ h1 {
 .messageIcon {
     height: 80px;
     width: 80px;
+}
+
+input {
+    margin-bottom: 1.2em;
+    width: 20em;
+    min-height: 35px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #97eaff;
+    border: none;
+}
+
+input,
+textarea {
+    border: 1px solid #333;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+textarea {
+    margin-bottom: 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+    opacity: 0.5;
+}
+
+form {
+    margin-left: 2em;
 }
