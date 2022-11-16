@@ -79,7 +79,7 @@ body {
 }
 
 .picnic {
-    background-image: url(resources/images/img16.jpg);
+    background-image: url(resources/images/img2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -173,4 +173,19 @@ body {
 .message h2,
 h1 {
     font-family: 'MuseoModerno', sans-serif;
+}
+
+.ourSocials img {
+    height: 42px;
+    width: 42px;
+    margin-right: 1em;
+}
+
+.messageEdits {
+    opacity: 0.6;
+}
+
+.messageIcon {
+    height: 80px;
+    width: 80px;
 }
