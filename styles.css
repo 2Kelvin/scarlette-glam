@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=WindSong:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=MuseoModerno:wght@700;800&family=WindSong:wght@500&display=swap');
 
 body {
     box-sizing: border-box;
@@ -13,7 +13,7 @@ body {
 .topNav {
     display: flex;
     place-content: center;
-    margin: 1.4em 0;
+    margin: 1em 0;
 }
 
 .navMenuContainer {
@@ -28,11 +28,11 @@ body {
 }
 
 .navMenu {
-    margin: 1em 1em;
+    margin: 0 1em;
     font-weight: 700;
+    display: flex;
     align-items: center;
     text-align: center;
-    display: flex;
     min-height: 24px;
 }
 
@@ -48,7 +48,7 @@ body {
 /* ---------------main heading--------------- */
 .mainHeading {
     text-align: center;
-    margin-top: 1em;
+    margin-top: 0;
     font-family: 'WindSong', sans-serif;
     font-weight: bold;
     font-size: 3rem;
@@ -57,13 +57,17 @@ body {
 /* ---------------main background image--------------- */
 .bgImage {
     width: 100vw;
-    height: 75vh;
+    height: 70vh;
     background-image: url(resources/images/img12.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 5em;
 
+}
+
+.ourPackages {
+    text-align: center;
 }
 
 /* ---------------event cards--------------- */
@@ -120,6 +124,10 @@ body {
     margin-right: 0.7em;
 }
 
+.feedback {
+    text-align: center;
+}
+
 /* ---------------reviews/ testimonials--------------- */
 .reviews {
     display: flex;
@@ -144,7 +152,6 @@ body {
 
 .reviewerName {
     margin-bottom: 0;
-    font-family: 'MuseoModerno', sans-serif;
     width: 16em;
 }
 
@@ -185,7 +192,7 @@ body {
 .message h2,
 h1 {
     font-family: 'MuseoModerno', sans-serif;
-    /* import this font */
+    font-weight: 900;
 }
 
 .message h2 {
