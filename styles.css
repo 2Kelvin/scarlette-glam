@@ -65,7 +65,6 @@ body {
 
 .eventCard {
     border-radius: 15px;
-    background-color: peru;
     margin-right: 1em;
     height: 400px;
     width: 400px;
@@ -93,20 +92,22 @@ body {
     background-size: cover;
 }
 
-/* change this selector once you add an image and icon to the eventCard */
-.eventCard p {
-    padding: 1em;
+.eventTag {
     font-weight: bold;
     background-color: pink;
     margin: 0 1.5em;
     border-radius: 10px;
     align-items: center;
     display: flex;
+    justify-content: center;
+    position: relative;
+    top: 82%;
 }
 
-.eventCard p img {
-    height: 21px;
-    width: 21px;
+.eventTag img {
+    height: 27px;
+    width: 27px;
+    margin-right: 0.7em;
 }
 
 /* ---------------reviews/ testimonials--------------- */
