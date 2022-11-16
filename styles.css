@@ -62,6 +62,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 5em;
 
 }
 
@@ -129,9 +130,9 @@ body {
 .reviewCard {
     border-radius: 10px;
     background-color: #fff;
-    height: 194px;
-    width: 358px;
-    padding: 1em;
+    height: 165px;
+    width: 342px;
+    padding: 2em;
     margin-right: 1em;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -139,21 +140,6 @@ body {
 .reviewer {
     display: flex;
     align-items: center;
-}
-
-.reviewerLetter {
-    border-radius: 50%;
-    background-color: orange;
-    border: none;
-    font-weight: bold;
-    margin-right: 1em;
-    padding: 1em;
-    height: 20px;
-    width: 20px;
-    align-self: center;
-    text-align: center;
-    display: grid;
-    place-content: center;
 }
 
 .reviewerName {
@@ -167,14 +153,15 @@ body {
 }
 
 .reviewer img {
-    height: 22px;
-    width: 22px;
+    height: 40px;
+    width: 40px;
     justify-self: flex-end;
+    margin-right: 1em;
 }
 
 /* ---------------contact us--------------- */
 .contactUs {
-    margin-top: 1.5em;
+    margin-top: 4.5em;
     background-color: #DEA5C5;
     height: 50vh;
     padding-top: 3em;
